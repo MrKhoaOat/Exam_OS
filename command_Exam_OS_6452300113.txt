@@ -1,0 +1,8 @@
+grep -oEi '^(tanakorn)+' email.txt ส่วนตัว
+grep -oE '\b(6452300113)+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b' email.txt ส่วนตัว
+grep -oE '\b(6452300113)' email.txt ส่วนตัว
+
+grep -oE '\b[0-9]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b' email.txt ไม่ส่วนตัว 
+grep -oE '\b[0-9]+' email.txt ไม่ส่วนตัว
+
+
